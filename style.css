@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkblue;
+  text-align: center;
+  color: white;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+h1 {
+  position: relative;
+  z-index: 10;
+}
+
+a {
+  color: #FFd002;
+  text-decoration: none;
+}
+
+.wave-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
